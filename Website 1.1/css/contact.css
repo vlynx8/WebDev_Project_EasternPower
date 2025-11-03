@@ -28,34 +28,9 @@ img {
   border: 5px solid rgb(255, 255, 255);
   padding: 10px;   
   margin: 0 auto;
-  width: fit-content; 
-  max-width: 100%; 
   margin-bottom: 20px;
-  text-align: left;   
+  text-align: center;   
 }
-.box3 {
-  max-width: 600px;
-  background-color: rgb(255, 221, 0);
-  border: 5px solid rgb(255, 255, 255);
-  padding: 10px;   
-  margin: 0 auto;
-  width: fit-content; 
-  max-width: 100%; 
-  margin-bottom: 20px;
-  text-align: left;   
-}
-.box4 {
-  max-width: 600px;
-  background-color: rgb(255, 221, 0);
-  border: 5px solid rgb(255, 255, 255);
-  padding: 10px;   
-  margin: 0 auto;
-  width: fit-content; 
-  max-width: 100%; 
-  margin-bottom: 20px;
-  text-align: left;   
-}
-
 
 body {
 
@@ -66,7 +41,7 @@ body {
 .box2 {
   min-height: 150px;
   max-width: 1500px;
-  background-color: rgb(255, 225, 0);
+  background-color: rgb(255, 221, 0);
   border: 2px solid rgb(255, 255, 255);
   padding: 10px;   
   margin: 0 auto;
@@ -79,8 +54,7 @@ img {
 }
 
 .buttonbhv {
-  border-radius: 8px; /* makes button round*/
-  padding: 10px 20px;
+  
   margin: 0 auto;
   margin-bottom: 20px;
   display: flex;              
@@ -90,8 +64,6 @@ img {
 }
 
 .button-container {
-  border-radius: 8px; /* 2 lines makes button round */
-  padding: 10px 20px;
   display: flex;            
   justify-content: center;  
   gap: 150px;                 
@@ -113,8 +85,4 @@ img {
   width: 100%;
   position: fixed;              
   z-index: -1;   
-}
-
-.button-container form {
-  display: inline;
 }

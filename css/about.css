@@ -54,7 +54,7 @@ img {
 }
 
 .buttonbhv {
-  
+  border-radius: 8px; 
   margin: 0 auto;
   margin-bottom: 20px;
   display: flex;              
@@ -64,6 +64,7 @@ img {
 }
 
 .button-container {
+  border-radius: 8px; 
   display: flex;            
   justify-content: center;  
   gap: 150px;                 
@@ -85,4 +86,44 @@ img {
   width: 100%;
   position: fixed;              
   z-index: -1;   
+}
+/* Mobile adjustments for iPhone / small screens */
+@media (max-width: 480px) {
+  /* Stack elements and reduce spacing */
+  .box, details {
+      width: 95% !important;       /* almost full screen */
+      margin: 0 auto 15px auto;    /* center with spacing */
+      padding: 10px !important;    /* smaller padding */
+  }
+
+  /* Make images responsive */
+  .box img {
+      width: 100% !important;
+      height: auto !important;
+  }
+
+  /* Adjust text inside details */
+  details p {
+      font-size: 0.95em;
+      text-align: left !important;
+  }
+
+  /* Make buttons full width and wrap */
+  .button-container {
+      gap: 5px !important;
+  }
+
+  .buttonbhv {
+      flex: 1 1 100% !important;
+      max-width: none !important;
+  }
+
+  /* Adjust headings and paragraphs */
+  h1 {
+      font-size: 1.5em;
+  }
+
+  p {
+      font-size: 0.95em;
+  }
 }

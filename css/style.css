@@ -118,3 +118,42 @@ img {
 .button-container form {
   display: inline;
 }
+/* Mobile adjustments for iPhone */
+@media (max-width: 480px) {
+  /* Make the boxes stack vertically */
+  .box, .box3, .box4 {
+      flex-direction: column !important; /* stack image above text */
+      gap: 10px !important;              /* reduce gap */
+      width: 95% !important;             /* almost full screen */
+      text-align: left;
+  }
+
+  /* Make images responsive */
+  .box img, .box3 img, .box4 img {
+      width: 100% !important;   /* scale image to container */
+      height: auto !important;
+  }
+
+  /* Adjust paragraph text */
+  .box p, .box3 p, .box4 p {
+      text-align: left !important;
+  }
+
+  /* Make buttons full width on small screens */
+  .button-container {
+      gap: 5px !important;
+  }
+
+  .buttonbhv {
+      flex: 1 1 100% !important;
+      max-width: none !important;
+  }
+
+  /* Optional: reduce heading and paragraph font size */
+  h1 {
+      font-size: 1.5em;
+  }
+  p {
+      font-size: 0.95em;
+  }
+}

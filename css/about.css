@@ -73,8 +73,9 @@ img {
   margin-top: 20px;           
 }
 
-.buttonbhv.active {
-  background-color: #d5d5d5;
+.buttonbhv.active:hover {
+  background-color: #f90101;
+  transform: scale(0.9);
 }
 
 /* Mobile adjustments for iPhone / small screens */

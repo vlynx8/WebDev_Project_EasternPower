@@ -74,8 +74,9 @@ body {
     flex-wrap: wrap;
 }
 
-.buttonbhv.active {
-    background-color: #d5d5d5;
+.buttonbhv.active:hover {
+    transform: scale(0.9);
+    background-color: #fd0000;
 }
 
 .button-container form {

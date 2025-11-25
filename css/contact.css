@@ -73,9 +73,9 @@ img {
   margin-top: 20px;           
 }
 
-.buttonbhv.active:hover {
-  background-color: #f70505;
-  transform: scale(0.9);
+.buttonbhv:hover , .active {
+  background-color: #bbbbbb;
+  transform: scale(0.95);
 }
 
 /* Mobile adjustments for iPhone / small screens */

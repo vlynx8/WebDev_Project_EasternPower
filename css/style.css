@@ -28,7 +28,7 @@ img {
     border: 5px solid rgb(255, 255, 255);
     padding: 10px;
     margin: 0 auto;
-    width: 800px;
+    width: 750px;
     max-width: 100%;
     min-height: 380px;
     margin-bottom: 20px;
@@ -74,9 +74,9 @@ body {
     flex-wrap: wrap;
 }
 
-.buttonbhv.active:hover {
-    transform: scale(0.9);
-    background-color: #fd0000;
+.buttonbhv:hover , .active {
+  background-color: #bbbbbb;
+  transform: scale(0.95);
 }
 
 .button-container form {

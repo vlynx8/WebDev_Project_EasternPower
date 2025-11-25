@@ -149,3 +149,10 @@ img {
         font-size: 1em;
     }
 }
+
+.car-img {
+    width: 450px;
+    height: 330px;
+    object-fit: cover;
+    border-radius: 8px;
+}

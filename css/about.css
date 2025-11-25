@@ -83,10 +83,10 @@ img {
   .box, details {
       width: 95% !important;       /* almost full screen */
       margin: 0 auto 15px auto;    /* center with spacing */
-      padding: 10px !important;    /* smaller padding */
+      padding: 10px !important;    
   }
 
-  /* Make images responsive */
+
   .box img {
       width: 100% !important;
       height: auto !important;
@@ -98,7 +98,7 @@ img {
       text-align: left !important;
   }
 
-  /* Make buttons full width and wrap */
+ 
   .button-container {
       gap: 5px !important;
   }
@@ -108,7 +108,7 @@ img {
       max-width: none !important;
   }
 
-  /* Adjust headings and paragraphs */
+ 
   h1 {
       font-size: 1.5em;
   }
@@ -137,7 +137,7 @@ img {
     }
 
     .buttonbhv {
-        flex: 1 1 45%; /* two buttons per row on tablets */
+        flex: 1 1 45%;
         max-width: 300px;
     }
 

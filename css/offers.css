@@ -61,6 +61,10 @@ img {
   gap: 10px;                  
   padding: 20px;
 }
+.buttonbhv:hover {
+    background-color: #f80404;
+    transform: scale(0.8);
+}
 
 .button-container {
   border-radius: 8px; 
@@ -71,7 +75,7 @@ img {
 }
 
 .buttonbhv.active:hover {
-  background-color: #bbbbbb;
+  background-color: #f80404;
   transform: scale(0.80);
 }
 

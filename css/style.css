@@ -76,7 +76,7 @@ body {
 
 .buttonbhv:hover , .active {
   background-color: #bbbbbb;
-  transform: scale(0.95);
+  transform: scale(0.80);
 }
 
 .button-container form {
@@ -156,3 +156,4 @@ body {
         font-size: 0.95em;
     }
 }
+

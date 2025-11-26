@@ -78,7 +78,7 @@ body {
     flex-wrap: wrap;
 }
 
-.buttonbhv:hover , .active {
+.buttonbhv.active:hover {
   background-color: #f80404;
   transform: scale(0.80);
 }
@@ -160,5 +160,6 @@ body {
         font-size: 0.95em;
     }
 }
+
 
 

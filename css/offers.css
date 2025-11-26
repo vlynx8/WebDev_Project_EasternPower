@@ -62,8 +62,8 @@ img {
   padding: 20px;
 }
 .buttonbhv:hover {
-    background-color: #f80404;
-    transform: scale(0.8);
+    background-color:   #dd2f26;
+    transform: scale(0.90);
 }
 
 .button-container {
@@ -74,11 +74,10 @@ img {
   margin-top: 20px;           
 }
 
-.buttonbhv.active:hover {
-  background-color: #f80404;
-  transform: scale(0.80);
+.buttonbhv:hover , .active {
+  background-color:  #dd2f26;
+  transform: scale(0.90);
 }
-
 .box {
     max-width: 600px;
     background: linear-gradient(135deg, rgb(255, 215, 50) 10%, rgb(239, 191, 4) 20%, rgb(180, 120, 0) 70%);

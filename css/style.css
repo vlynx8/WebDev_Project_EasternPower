@@ -64,8 +64,8 @@ body {
     padding: 20px;
 }
 .buttonbhv:hover {
-    background-color: #f80404;
-    transform: scale(0.8);
+    background-color:  #dd2f26;
+    transform: scale(0.90);
 }
 
 .button-container {
@@ -78,9 +78,9 @@ body {
     flex-wrap: wrap;
 }
 
-.buttonbhv.active:hover {
-  background-color: #f80404;
-  transform: scale(0.80);
+.buttonbhv:hover , .active {
+  background-color:  #dd2f26;
+  transform: scale(0.90);
 }
 
 .button-container form {

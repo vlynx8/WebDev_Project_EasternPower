@@ -63,6 +63,10 @@ body {
     gap: 10px;
     padding: 20px;
 }
+.buttonbhv:hover {
+    background-color: #f80404;
+    transform: scale(0.8);
+}
 
 .button-container {
     border-radius: 8px;
@@ -75,7 +79,7 @@ body {
 }
 
 .buttonbhv:hover , .active {
-  background-color: #bbbbbb;
+  background-color: #f80404;
   transform: scale(0.80);
 }
 
@@ -156,4 +160,5 @@ body {
         font-size: 0.95em;
     }
 }
+
 

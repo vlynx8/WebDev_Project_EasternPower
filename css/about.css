@@ -75,7 +75,7 @@ img {
 
 .buttonbhv:hover , .active {
   background-color: #bbbbbb;
-  transform: scale(0.95);
+  transform: scale(0.80);
 }
 
 /* Mobile adjustments for iPhone / small screens */
@@ -150,3 +150,4 @@ img {
         font-size: 1em;
     }
 }
+

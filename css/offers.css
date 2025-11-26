@@ -70,7 +70,7 @@ img {
   margin-top: 20px;           
 }
 
-.buttonbhv:hover , .active {
+.buttonbhv.active:hover {
   background-color: #bbbbbb;
   transform: scale(0.80);
 }

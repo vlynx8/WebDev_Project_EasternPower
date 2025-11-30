@@ -43,20 +43,40 @@
         </form>
     </div>
     </div>
-    <details class="box">
-        <summary>
-        <b>Contact Us</b>
+    <div class="box">
+      
+        <p><b>Contact Us:</b></p>
             
-        </summary>
-        <p>
-            <b>John O'Reilly: +3808771783<br>
-            johnoreilly@gmail.com<br>
-            Eastern Power: +3531773913<br>
-            easternpower@gmail.com</b><br>
-        </p>
-    </details>
+       
+
+        <form id="form">
+            <label for="name"><b><p>First Name:</p></b></label>
+            <input type="text" id="firstname" name="name" placeholder="Your first name..">
+
+            <label for="name"><b><p>Last Name:</p></b></label>
+            <input type="text" id="lastname" name="name" placeholder="Your last name..">
+
+            <label for="email"><p><b>Email:</b></p></label>
+            <input type="email" id="email" name="email" placeholder="Your email..">
+
+            <label for="select"><p><b>Subject:</b></p></label>
+            <select id="select" name="select">
+                <option value="" disabled selected>(Select a subject...)</option>
+                <option value="general">General Inquiry</option>
+                <option value="support">Feedback</option>
+                <option value="feedback">Technical Support</option>
+            </select>
+
+            <label for="message"><p><b>Message:</b></p></label>
+            <textarea type="text" id="message" name="message" placeholder="Write your message here.."></textarea>
+            <p id="submittext"></p>
+
+            <input type="submit" value="Submit">
+        </form>
+    </div>
     <div class="box">
     <img class="car-img" src="../media/merc2.webp" alt="taken from Pexels.com"></img>
     </div>
     </body>
+    <script src="../scripts/script.js"></script>
 </html>
